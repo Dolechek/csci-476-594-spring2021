@@ -1,12 +1,11 @@
 # lab00
 Private repo for MSU CSCI 476 Computer Security
-* Logan
-* Dolechek
+* Logan Dolechek
 * n47f693
 * CSCI 476  
 * <logand.msu@gmail.com>
-* ![Survery Pic](QuestionairePhoto.png)
-* ![SEED Pic](SEED.png)
+ ![Survery Pic](QuestionairePhoto.png)
+ ![SEED Pic](SEED.png)
 
 ## Three lessons learned
 * First lesson I have learned is that I need to do a better job organizing files and other items for projects better on my local machines. Between my laptop/desktop I have too many workspaces and things seem cluttered. 
