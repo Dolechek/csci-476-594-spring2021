@@ -1,1 +1,4 @@
-# csci-476-594-spring2021-private
+FirstName LastName (NetID)
+Logan Dolechek N47F693
+CSCI 476
+logand.msu@gmail.com
