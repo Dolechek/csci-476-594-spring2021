@@ -21,13 +21,16 @@
 4. Ask a buddy you trust to watch it for you while you step away. 
 5. Make sure nothing is spillable close to it. 
 ---
+### Task 2
 - **Strengths**
 1. The main strength is that I was able to recall on my previous experience when stepping away from my laptop or backpack while in the SUB or anywhere else on campus. 
 2. The second strength is that I was able to think about situations that might have happened that hasn't happened to me. 
 ---
+### Task 3
 - **Weaknesses**
 1. I wasn't able to collaborate with others. I may have missed something huge, thought too small, etc. 
 2. I didn't pull from any articles that may have mentioned this same scenario or something similiar to it. Could have missed information there. 
 ---
+### Task 4
 - **Reflection**
 If I was to do this again and try to improve on it. I would incorporate others. Pull from other similiar scenarios for ideas I or someone else may not have thought of. Would be best to run tests to see if someone would come up and try to mess with a random laptop just sitting there. 
