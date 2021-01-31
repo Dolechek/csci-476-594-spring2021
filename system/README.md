@@ -11,3 +11,4 @@
 4. So my main concerns would be overlap between the stack and memory mapping segment, or overlap between the heap and memory mapping segment, as any of these regions expand/grow. How do we handle that, what do we do, etc. 
 5. A trust boundary is where the execution or program data changes it's trust. For example, if a regular user were to run a program for manipulating network interfaces, the program may need to escalate privilege in order to initiate certain interfaces.
 6. Some major elements of the stack frame that we discussed in class would be. Return address, Previous frame pointer, Local Variables, Saved copies of registers modified by subprograms that could need restoration, Argument parameters.
+7. -
