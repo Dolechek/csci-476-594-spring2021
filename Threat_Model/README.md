@@ -33,4 +33,4 @@
 ---
 ### Task 4
 - **Reflection**
-If I was to do this again and try to improve on it. I would incorporate others. Pull from other similiar scenarios for ideas I or someone else may not have thought of. Would be best to run tests to see if someone would come up and try to mess with a random laptop just sitting there. 
+	If I was to do this again and try to improve on it. I would incorporate others. Pull from other similiar scenarios for ideas I or someone else may not have thought of. Would be best to run tests to see if someone would come up and try to mess with a random laptop just sitting there. 
