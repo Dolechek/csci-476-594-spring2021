@@ -1,0 +1,4 @@
+- Looks good overall! Be sure to check how it is rendering on GitHub though - the list / images are a little funky. 
+- It looks like you didn't update your GitHub profile to include all of the info we instructed (e.g., a photo, requested contact information). Please do this as soon as possible.
+- Making use of [Markdown](https://www.markdownguide.org) features such as headers, lists, basic font formatting, links, images, etc., can go a long way. Be sure to spend some time making sure you have the basics down, and try to review some examples online to get a better sense for what others do.
+- Please be sure to clearly indicate which tasks your responses/solutions address (e.g., Task 1, Task 3(b)). This isn't a big deal in this assignment, but will be important in future assignments.
