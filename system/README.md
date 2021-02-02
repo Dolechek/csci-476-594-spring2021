@@ -5,7 +5,7 @@
 ## 1/29/2021
 ---
 ```html
-<img src = "MemoryLayout.png" width="200" height="400">
+<img src = "MemoryLayout.png" width="200" height="400" alt="Memory Layout">
 ```
 1. When fork() is called it takes the current process and duplicates that. The new process is the child to the Parent process that was occuring earlier. Exec() instead replaces/substitutes the current process with a new one. 
 2. ![Memory Layout](MemoryLayout.png)
