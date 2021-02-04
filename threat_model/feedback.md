@@ -1,0 +1,3 @@
+- You still haven't updated your GitHub profile to include all of the info we instructed (e.g., a photo, requested contact information). Do this ASAP!
+- Please fix the header for your submission. See https://www.traviswpeters.com/cs476-2021-spring/labs#example-structure-of-a-lab-report-readmemd.
+- Please check how your final `README.md` renders on GitHub - some of the formatting is off.
