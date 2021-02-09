@@ -84,11 +84,11 @@ _Set-UID is an important security mechanism in Unix operating systems. When a Se
 
 I can confirm that running this correctly prints the environment variables 
 
-<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task5_1.PNG">
+<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task5_1.PNG" width="500" height="400">
 
 **Task 5.2**
 
-<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task5_2.PNG">
+<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task5_2.PNG" width="500" height="400">
 
 **Task 5.3**
 
@@ -107,7 +107,7 @@ _blahblah_
 
 <img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task6_p1.PNG">
 
-<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task6_p2.PNG">
+<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task6_p2.PNG" width="" height="400">
 
 
 After changing the permissions of ls_vuln to root and then trying to run the file again. It continued to only run the base ls command. I believe the reason behind this is that since system starts at the base shell and will point to dash. Dash has that countermessure mentioned to prevent itself being used as a Set-UID. It will revert it back to the process's real user ID which would cancel any permissions given before. 
@@ -127,7 +127,7 @@ _blahblahblah_
 
 - Make myprog a regular program, and run it as a normal user
 
-<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task7_2p1.png">
+<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task7_2p1.png" width="" height="500">
 
 - Make myprog a Set-UID root program, and run it as a normal user.
 
