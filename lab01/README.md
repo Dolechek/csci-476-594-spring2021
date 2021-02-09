@@ -70,16 +70,26 @@ After changing the permissions of ls_vuln to root and then trying to run the fil
 ## Task 7: LD_PRELOAD and Set-UID Programs  
 **Task 7 Summary**  
 _blahblahblah_  
-**Task 7.1**  
-<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task7_1.PNG">  
-**Task 7.2**  
-- Make myprog a regular program, and run it as a normal user  
-<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task7_2p1.png">  
-- Make myprog a Set-UID root program, and run it as a normal user.  
-<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task7_2p2.png">  
-- Make myprog a Set-UID root program, export the LD_PRELOAD environment variable again in the root account and run it.   
-<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task7_2p3.png">  
-- Make myprog a Set-UID user1 program export the LD_PRELOAD enviornment variable again in a different user's account and run it.  
+**Task 7.1**
+
+<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task7_1.PNG">
+
+**Task 7.2**
+
+- Make myprog a regular program, and run it as a normal user
+
+<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task7_2p1.png">
+
+- Make myprog a Set-UID root program, and run it as a normal user.
+
+<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task7_2p2.png">
+
+- Make myprog a Set-UID root program, export the LD_PRELOAD environment variable again in the root account and run it.
+
+<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task7_2p3.png"> 
+
+- Make myprog a Set-UID user1 program export the LD_PRELOAD enviornment variable again in a different user's account and run it.
+
 <img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task7_2p4.png">  
 
 **Task 7.3**  
