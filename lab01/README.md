@@ -10,10 +10,10 @@
 **Task 1 Summary**
 _In this task, we study the commands that can be used to set and unset environment variables. We are using Bash in the seed account._ 
 **Task 1.1 Screenshots**
-<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task1_1p1.PNG">
-<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task1_1p2.PNG">
+<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task1_1p1.PNG">  
+<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task1_1p2.PNG">  
 **Task 1.2 Screenshot**
-<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task1_2.PNG">
+<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task1_2.PNG">  
 ---
 ## Task 2: Passing Environment Variables (Parent -> Child)
 **Task 2 Summary**
