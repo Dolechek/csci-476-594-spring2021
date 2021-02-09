@@ -37,7 +37,7 @@ After running vimdiff myenv2 myenv1 the difference showed know differences at al
 _In this task, we study how environment variables are affected when a new program is executed via execve(). The function execve() calls a system call to load a new command and execute it; this function never returns. No new process is created; instead, the calling process’s text, data, bss, and stack are overwritten by that of the program loaded. Essentially, execve() runs the new program inside the calling process. We are interested in what happens to the environment variables; are they automatically inherited by the new program?_   
 **Task 3.1**  
 I compiled and ran the file as asked for this step and nothing was shown as expected.  
-<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task3_1.PNG">  
+<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task3_1.PNG" width="500" height="300">  
 **Task 3.2**  
 After changing the code I recompiled the file and then ran it. This time it showed me all the environment variables.   
 **Task 3.3**  
