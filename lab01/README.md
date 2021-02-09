@@ -93,4 +93,21 @@ _blahblahblah_
 <img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task7_2p4.png">  
 
 **Task 7.3**  
+I need to write a summary of 7.2 from my observations here. 
 
+## Task 8: system() versus execve()
+
+**Task 8.1**
+Yes I was able to compromise the integrity of the system as "Bob". I was able to invoke two different calls within the same command line. Which allowed me to write/remove the file that I shouldn't have been able to access. There is a security breach within the arguments of catall.c that allows me to access permissions if I call within the same line.
+<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task8_1.png"> 
+
+**Task 8.2**
+No I was not able to make the same attack as before. With execve it reads the entire quotations at once vs at seperate times. 
+<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task8_2.png">
+
+## Task 9: Capability Leaking
+**Task 9 Summary**
+_blahblahblah_
+
+Yes this was able to be edited, due to leaked privileges from the Set-UID executable. 
+<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab01/task9.png"> 
