@@ -111,6 +111,8 @@ _Now we actually launch the Shellshock attacks. The purpose of this task is to u
 
 <img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab02/img/T3.5.png" width="" height=""> 
 
+---
+
 ## Task 4: Getting a Reverse Shell via Shellshock
 
 **Task 4 Summary**
@@ -119,7 +121,9 @@ _The overall goal of this task is to get a reverse shell from the "victim" to su
 
 The image below will show that I was able to get the reverse shell to connect and spit back information to my attacker side. 
 
-<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab02/img/T4.png" width="" height=""> 
+<img src = "https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab02/img/T4.png" width="" height="">
+
+---
 
 ### Task 5: Using the Patched Bash
 
