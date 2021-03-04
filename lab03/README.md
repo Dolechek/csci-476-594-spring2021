@@ -1,4 +1,4 @@
-# Lab 02: Shellshock Attack Lab
+# Lab 03: Buffer Overflow Attack Lab
 - **Logan Dolechek (n47f693)**
 - **logand.msu@gmail.com**
 - **CSCI 476**
