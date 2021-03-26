@@ -26,6 +26,8 @@ After embeding the JavaScript within the profile I was able to get this pop up s
 
 <img src =https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab_05/t_2.png width="" height="">
 
+## Task 3: Steal Cookies from the Victim's Machine
+
 **Task 3 Summary**
 
 _The objective of this task is to get the JavaScript code to send the information of the cookies to the attacker and not notify the victim about it._
