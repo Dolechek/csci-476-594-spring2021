@@ -38,7 +38,7 @@ After embeding the <script> line within the victims profile I was able to get th
 
 <img src =https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab_05/t_3_2.png width="" height="">
 
-#Task 4: Becoming the Victims Friend
+## Task 4: Becoming the Victims Friend
 
 **Task Summary**
 
