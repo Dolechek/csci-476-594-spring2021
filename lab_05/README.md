@@ -3,7 +3,7 @@
 - **logand.msu@gmail.com**
 - **CSCI 476**
 - **03/23/2021**
-- **Link to assignment:**[https://www.traviswpeters.com/cs476-2021-spring/labs/lab03]
+- **Link to assignment:**[https://www.traviswpeters.com/cs476-2021-spring/labs/lab05]
 ---
 
 ## Task 1: Post a Malicious Message to Display an Alert Window
@@ -14,7 +14,7 @@ _The objective of this task is to embed JavaScript code in your Elgg profile, su
 
 I was able to get the notification to pop up by putting the <script> line into the short discription part of Alice's about me. When done I got this pop up menu that will be shown below. 
 
-<img src =  width="" height="">
+<img src =https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab_05/t_1.png  width="" height="">
 
 ## Task 2: Post a Malicious Message to Display Cookies.
 
@@ -24,7 +24,7 @@ _The objective of this task is to embed JavaScript code in your Elgg profile, su
 
 After embeding the JavaScript within the profile I was able to get this pop up screen that will be shown below. 
 
-<img src = width="" height="">
+<img src =https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab_05/t_2.png width="" height="">
 
 **Task 3 Summary**
 
@@ -32,8 +32,9 @@ _The objective of this task is to get the JavaScript code to send the informatio
 
 After embeding the <script> line within the victims profile I was able to get the info to pop up on the attackers side. Images below will show what I mean. 
   
-<img src = width="" height="">
-<img src = width="" height="">
+<img src =https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab_05/t_3_1.png width="" height="">
+
+<img src =https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab_05/t_3_2.png width="" height="">
 
 #Task 4: Becoming the Victims Friend
 
