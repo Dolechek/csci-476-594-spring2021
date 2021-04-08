@@ -40,9 +40,9 @@ In order to open these encrypted pictures I followed the in-lab steps to place t
 
 By doing the above commands, the encrypted pictures were then viewable. Below, I have put the original picture, the cbc encoded picture, and the ebc encoded picture.
 
-<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab06/task2-2-3.png width="400" height="400">
-<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab06/task2-2-2.png width="400" height="400">
-<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab06/task2-2-1.png width="400" height="400">
+<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab06/task2-2-3.png width="500" height="500">
+<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab06/task2-2-2.png width="500" height="500">
+<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab06/task2-2-1.png width="500" height="500">
 
 With the ECB encrypted picture a red circle and some color of a visible square can be seen. However, in the CBC version, no data can be made out at all. The entire picture is a jumble of "static".
 
@@ -54,9 +54,9 @@ I created an image within ms paint and then ran the same steps as before and rec
 
 The following images were produced from my own image that I created. The original picture has been included first. Just like before, details can be made out within the ECB version though text is ore difficult to make out than shapes themselves. Again, absolutely no details can be made out within the CBC version of encryption.
 
-<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab06/task2-2.2-5.png width="" height="">
-<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab06/task2-2.2-4.png width="" height="">
-<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab06/task2-2.2-3.png width="" height="">
+<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab06/task2-2.2-5.png width="500" height="500">
+<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab06/task2-2.2-4.png width="500" height="500">
+<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab06/task2-2.2-3.png width="500" height="500">
 
 ---
 
