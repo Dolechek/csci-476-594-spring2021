@@ -40,9 +40,9 @@ In order to open these encrypted pictures I followed the in-lab steps to place t
 
 By doing the above commands, the encrypted pictures were then viewable. Below, I have put the original picture, the cbc encoded picture, and the ebc encoded picture.
 
-<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab06/task2-2-3.png width="" height="">
-<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab06/task2-2-2.png width="" height="">
-<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab06/task2-2-1.png width="" height="">
+<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab06/task2-2-3.png width="400" height="400">
+<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab06/task2-2-2.png width="400" height="400">
+<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/lab06/task2-2-1.png width="400" height="400">
 
 With the ECB encrypted picture a red circle and some color of a visible square can be seen. However, in the CBC version, no data can be made out at all. The entire picture is a jumble of "static".
 
