@@ -55,3 +55,9 @@ I compiled print_array.c and opened it in bless. Bless showed that the first arr
 
 __
 
+Just like in Task 3 I compiled benign_evil.c and opened it with bless. The array started at offest 0x3020 (12320) so again the next closest multiple of 64 is 12352. So I created the prefix with the first 12352 bytes. I then used md5collgen to make the two different files (prefix-P and prefix-Q) with the same hash. To get P on it's own I took the last 128 bytes from prefix-P and created the file P128. To find the middle to the end of the program where Array X ends and Array Y starts up to where P is located. I took the last 12481 bytes of the program. The first 288 bytes of this part represent the end of Array X up to Array Y where P needs to be. I took these bytes and created the file mid. The suffix is byte 12897 to the end, found by adding 288 (size of mid) and 128 (size of P) to the size of suffix-P. One more byte must be added because of where suffix-P ends. 
+
+From these files I concatenate prefix-P mid P128 and suffix to make version 1. Then I concatenate Prefix-Q mid P128 and suffix to make version 2. The md5sum of these versions match one another, yet you can see that version 1 is executing the benign code and version 2 is executing the malicious code.
+
+
+
