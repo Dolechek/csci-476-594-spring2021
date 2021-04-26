@@ -72,6 +72,8 @@ _Identify at least three countermeasures to buffer-overflow attacks and briefly 
 
 **Link to reference:**[https://www.linuxjournal.com/article/6701]
 
+---
+
 ## Task 2: Guest Visit Questions
 
 ### Task 2.1: Security in the Real World: Crypto
@@ -85,11 +87,43 @@ _From the real world scenario presented to us, summarize the approach my group s
 _Please answer the following questions._
 
 1. In your own words, what is compliance and why is compliance important?
---1. Compliance is essentially rules that have been put into place to keep software and the like secure against all sorts of attacks and other security protocols. Making sure that whatever is released is safe as possible and not allowing malicious intent. Compliance is important because it keeps all sorts of companies on the same set of guidelines. Ensuring there is a professional and ethical standard. Long answer short compliance is a list of checks and balances.
+- Compliance is essentially rules that have been put into place to keep software and the like secure against all sorts of attacks and other security protocols. Making sure that whatever is released is safe as possible and not allowing malicious intent. Compliance is important because it keeps all sorts of companies on the same set of guidelines. Ensuring there is a professional and ethical standard. Long answer short compliance is a list of checks and balances.
 
 2. What is a compliance framework?
---2. STIG (security technical implementation guide) is a compliance framework developed by defense information system agency used for configuration of computer and network systems.
+- STIG (security technical implementation guide) is a compliance framework developed by defense information system agency used for configuration of computer and network systems.
 
 3. Please provide three examples of compliance rule/test, and briefly explain why this check could be helpful towards ensuring compliance?
---3. STIG - 217976: The audit system must be configured to audit all use of the setuid and setgid programs.
+- STIG - 217976: The audit system must be configured to audit all use of the setuid and setgid programs.
 - Since setuid can be exploited, logging all uses of these types of programs can help monitor for unusual or identify malicious events quicker.
+- STIG - 16811: The designer will ensure the application does not have cross site scripting vulnerabilities.
+- As we learned in this class you can do a lot of malicious attacks if XSS is a possibility.
+- STIG - 16807: The Designer will ensure the application is not vulnerable to SQL injection, uses prepared or parameterized statements, does not use concatenation or replacement to build SQL queries, and does not directly access the tables in a database.
+- Again from class we learned how dangerous a SQL injection can be. To be able to put measurements in place to prevent this will make everyone safer in the long run.
+
+---
+
+## Task 3: I got 99 Problems but Auditing Ain't One
+
+**Summary**
+_The objective of these tasks is to demonstrate my understanding of the Set-UID mechanism as well as how it can be exploited._
+
+### Task 3.1:
+
+### Task 3.2:
+
+### Task 3.3:
+
+---
+
+## Task 4: Inject This...
+
+**Summary**
+_Demonstrate my understanding of SQL Injection attacks._
+
+### Task 4.1:
+
+### Task 4.2:
+
+### Task 4.3:
+
+---
