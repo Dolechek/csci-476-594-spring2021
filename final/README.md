@@ -166,4 +166,5 @@ _The following SQL statement is sent to the database, where $eid and $passwd con
 - The user can manipulate the password field to terminate this SQL statement and append another SQL statement. For example, Bob could use the password ';UPDATE employee SET Salary=1 WHERE Name='Alice';# to run an UPDATE command that sets Alice’s salary to 1. 
 
 <img src=https://github.com/Dolechek/csci-476-594-spring2021-private/blob/main/final/task4-3.png>
+
 ---
